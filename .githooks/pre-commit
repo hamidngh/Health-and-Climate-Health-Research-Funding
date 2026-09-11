@@ -1,0 +1,3 @@
+#!/bin/sh
+# Activate the project environment before committing. Hook checks the staged index.
+python scripts/check_public.py --staged --release

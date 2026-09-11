@@ -1,0 +1,36 @@
+{
+  "anzsrc_health_prefixes": [
+    "32",
+    "42"
+  ],
+  "anzsrc_exclusion_prefixes": [
+    "3001",
+    "3003",
+    "3004",
+    "3005",
+    "3008",
+    "3009",
+    "3108",
+    "5002",
+    "43",
+    "36",
+    "4702",
+    "4705",
+    "48"
+  ],
+  "uoa_prefixes": [
+    "1 ",
+    "2 ",
+    "3 ",
+    "4 ",
+    "A01",
+    "A02",
+    "A03",
+    "A04"
+  ],
+  "hrcs_field": "category_hrcs_hc",
+  "excluded_funders": [
+    "Substance Abuse and Mental Health Services Administration",
+    "Robert Wood Johnson Foundation"
+  ]
+}

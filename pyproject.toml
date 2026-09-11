@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lancet-funding-reproducibility"
+version = "3.0.1"
+description = "Notebook-first Dimensions extraction, main approach and methodological bands"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = ["pandas>=2.2,<3", "numpy>=2.3,<3", "matplotlib>=3.10,<4", "openpyxl>=3.1,<4", "requests>=2.32,<3", "python-dotenv>=1.2,<2", "Pillow>=12,<13"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lancet_funding = ["resources/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

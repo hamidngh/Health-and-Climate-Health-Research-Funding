@@ -1,0 +1,80 @@
+{
+  "start_year": 1990,
+  "end_year": 2025,
+  "main_figure_start": 1990,
+  "main_figure_end": 2025,
+  "analysis_start": 1990,
+  "analysis_end": 2025,
+  "active_funder_year": 2024,
+  "pause_seconds": 2.2,
+  "request_timeout_seconds": 180,
+  "search_profile": "historical_notebook",
+  "scenarios": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "11",
+    "12",
+    "13",
+    "14"
+  ],
+  "include_recipient": true,
+  "year_policy": "legacy_date_first",
+  "manual_exclusions": "private/reference/historical_exclusions.csv",
+  "country_groupings": "private/reference/country_groupings.csv",
+  "reference_status": "private/reference/status.json",
+  "equity_periods": [
+    {
+      "label": "1990_2025",
+      "start": 1990,
+      "end": 2025
+    },
+    {
+      "label": "2000_2024",
+      "start": 2000,
+      "end": 2024
+    },
+    {
+      "label": "2010_2024",
+      "start": 2010,
+      "end": 2024
+    },
+    {
+      "label": "2005_2014",
+      "start": 2005,
+      "end": 2014
+    },
+    {
+      "label": "2015_2019",
+      "start": 2015,
+      "end": 2019
+    },
+    {
+      "label": "2020_2024",
+      "start": 2020,
+      "end": 2024
+    },
+    {
+      "label": "2015_2024",
+      "start": 2015,
+      "end": 2024
+    },
+    {
+      "label": "2005_2024",
+      "start": 2005,
+      "end": 2024
+    }
+  ],
+  "historical_exclusions_workbook": "private/top5_values.xlsx",
+  "country_groupings_workbook": "private/Copy of 2026 Guidance_Country Names and Groupings.xlsx",
+  "band_policy": "historical_all_11",
+  "band_zero_denominator": "historical_zero",
+  "generate_report_window": true,
+  "annex_scopes": "all",
+  "annex_families": true,
+  "historical_exclusion_values": "workbook"
+}

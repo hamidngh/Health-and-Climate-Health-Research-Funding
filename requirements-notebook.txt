@@ -1,0 +1,5 @@
+# Notebook user interface; tested with Python 3.13 in this build.
+jupyterlab==4.5.3
+ipykernel==7.2.0
+nbformat==5.10.4
+nbclient==0.10.4
